@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pedido</title>
+    <link rel="icon" href="./img/icon.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        .navbar{
+          background-color: rgb(53, 107, 62);
+          font-family: "Lobster", cursive; 
+          text-align: center;
+          height: 100px;  
+          width: 100%;
+          position: absolute;
+          left: 0px;
+          right: 0 px;
+          top: 0px;
+        }
+        .pharap{
+            font-size: 40px;
+            color: white;
+            text-align: center;
+            position: relative;
+            bottom: 15px;
+        }
+        .boton{
+            width: 200px;
+            height: 100px;
+            position: relative;
+            top: 100px;
+            border-radius: 8px;
+            border-color: black;
+            background-color: rgb(53, 107, 62);
+            color: white;
+            font-size: 25px;
+        }
+        .boton:hover{
+            opacity: 50%;
+        }
+        a{
+            display: flex;
+            justify-content: center;
+        }
+        section{
+            margin-top: 150px;
+            text-align: center;
+            
+        }
+        form{
+            font-size: x-large;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <p class="pharap">pasteleria</p>
+    </div>
+    <section>
+        <form action="action.js" style="border-top: 100px;">
+            <label for="question">cual sabor?</label> <br>
+            <input type="radio" value="capuchino" name="chocolate">chocolate<br>
+            <input type="radio" value="capuchino" name="chocolate">vainilla<br>
+            <input type="radio" value="capuchino" name="chocolate">zanahoria<br>
+            <input type="radio" value="capuchino" name="chocolate">capuchino<br>
+            <label for="question">cual adorno?</label> <br>
+            <input type="radio" value="capuchino" name="chocolate">1<br>
+            <input type="radio" value="capuchino" name="chocolate">2<br>
+            <input type="radio" value="capuchino" name="chocolate">3<br>
+            <input type="radio" value="capuchino" name="chocolate">4<br>
+            <input type="submit" name="submit" id="submit" class="boton">
+
+        </form>
+
+
+
+
+    </section>
+
+    <a href="./index.html">
+        <input type="button" value="back" class="boton" style="margin-top: 15px;">
+    </a>
+    
+</body>
+</html>

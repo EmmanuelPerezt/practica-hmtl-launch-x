@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/icon.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        .navbar{
+          background-color: rgb(53, 107, 62);
+          font-family: "Lobster", cursive; 
+          height: 100px;  
+          width: 100%;
+          position: absolute;
+          left: 0px;
+          right: 0 px;
+          top: 0px;
+          float: right;
+          
+        }
+        .logo{
+            max-width: 75px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            position: relative;
+            float: left;
+        }
+        .pharap{
+            font-size: 40px;
+            color: white;
+            text-align: center;
+            
+
+        }
+        .pharap2{
+            font-size: 140px;
+            font-family: "Lobster", cursive;
+            text-align: center;
+            position: relative;
+            
+        }
+        img{
+            
+          width: 70%;
+          border-radius: 10%;
+          object-fit: cover;
+          margin-top: 15px;    
+        }
+        .container{
+            width: 100%;  
+            height: auto;          
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            place-items: center;
+           
+            
+        }
+        .card{
+            width: 200px;
+            height: 250px;
+            text-align: center;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        }
+        .card:hover {
+           box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+        .boton{
+            width: 200px;
+            height: 100px;
+            border-radius: 8px;
+            border-color: black;
+            background-color: rgb(53, 107, 62);
+            color: white;
+            margin-top: 50px;
+            font-size: 25px;
+            
+            
+            
+            
+        }
+        .boton:hover{
+            opacity: 50%;
+        }
+        a{
+            display: flex;
+            justify-content: center;
+            
+        }
+        footer{
+            height: 100px;
+            width: 100%;
+            background-color: rgb(35, 104, 61);
+            top: 15px;
+            margin-right: none;
+            left: 0px;
+        }
+        footer p{
+            color: white;
+            font-family: "losbter", cursive;
+            
+        }
+    </style>
+    <title>Verde bendito</title>
+</head>
+<body>
+    <div class="navbar">
+        <img src="./img/logo.png" alt="logo" class="logo">
+        <p class="pharap">Pasteleria</p>
+    </div>
+    <p class="pharap2">sabores</p>
+      <div class="container"> 
+        <div class="card">
+            <img src="./img/chocolate.png" alt="chocolate">
+            <h4>chocolate</h4>
+            
+        </div>
+        <div class="card">
+            <img src="./img/vainilla.jpg" alt="vainilla">
+            <h4>vainilla</h4>
+            
+        </div>
+        <div class="card">
+            <img src="./img/zanahoria.jpg" alt="zanahoria">
+            <h4>zanahoria</h4>
+        
+        </div>
+        <div class="card">
+            <img src="./img/capuchino.jpg" alt="capuchino">
+            <h4>capuchino</h4>
+            
+        </div>
+      </div>
+      <p class="pharap2">decorados</p>
+      <div class="container"> 
+        <div class="card">
+            <img src="./img/chocolate.png" alt="chocolate">
+            <h4>chocolate</h4>
+            
+        </div>
+        <div class="card">
+            <img src="./img/chocolate.png" alt="chocolate">
+            <h4>chocolate</h4>
+            
+        </div>
+        <div class="card">
+            <img src="./img/chocolate.png" alt="chocolate">
+            <h4>chocolate</h4>
+        
+        </div>
+        <div class="card">
+            <img src="./img/chocolate.png" alt="chocolate">
+            <h4>chocolate</h4>
+            
+        </div>
+      </div>
+      <a href="./pedido.html">
+          <input type="button" value="Siguiente"class="boton" >
+      </a>
+      <footer>
+          <p>todos los derechos reservados</p>
+      </footer>
+    
+</body>
+</html>
